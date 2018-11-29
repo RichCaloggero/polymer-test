@@ -1,0 +1,5 @@
+{
+"npm": true,
+"moduleResolution": "node",
+"sources": ["source/**/*"]
+}
