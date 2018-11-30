@@ -1,5 +1,5 @@
 import {PolymerElement, html} from "@polymer/polymer/polymer-element.js";
-import {_AudioContext_} from "./source/audio-context.js";
+import {_AudioContext_} from "./audio-context.js";
 
 
 

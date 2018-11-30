@@ -1,4 +1,4 @@
-import {AudioControl} from "./audio-control.js";
+//import {AudioControl} from "./audio-control.js";
 import {PolymerElement, html} from "@polymer/polymer/polymer-element.js";
 
 // audio-context
@@ -269,8 +269,8 @@ return "[unnamed element]";
 
 _enableAutomation (value) {
 if (this.constructor === _AudioContext_) {
-if (value) AudioControl.startAllAutomation ();
-else AudioControl.stopAllAutomation ();
+//if (value) AudioControl.startAllAutomation ();
+//else AudioControl.stopAllAutomation ();
 } // if
 } // _enableAutomation
 

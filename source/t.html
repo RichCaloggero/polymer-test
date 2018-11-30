@@ -3,15 +3,16 @@
 <head>
 <meta charset="utf-8">
 <title>test</title>
-<script type="module" src="./t1.js"></script>
+<script crross-domain="true" type="module" src="./t1.js"></script>
 </head>
 <body>
-<audio-context>
-<audio-series>
-<audio-player src="t1.mp3"></audio-player>
-<audio-destination></audio-destination>
-</audio-series>
-</audio-context>
+<script type="module">
+import {T1} from "./t1.js";
+import {T2} from "./t2.js";
 
+let t1 = new T1();
+console.log(t1.hello());
+
+</script>
 </body>
 </html>
